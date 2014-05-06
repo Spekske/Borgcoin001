@@ -1,9 +1,9 @@
 Borgcoin integration/staging tree
 ================================
 
-http://www.coingen.io
+http://www.borgcoin.org
 
-Copyright (c) 2009-2013 Bitcoin Developers
+Copyright (c) 2014 Borgcoin Developers
 
 What is Borgcoin?
 ----------------
@@ -15,7 +15,7 @@ out collectively by the network. Borgcoin is also the name of the open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Borgcoin client software, see http://www.coingen.io.
+the Borgcoin client software, see http://www.borgcoin.org
 
 License
 -------
@@ -66,9 +66,9 @@ Unit tests for the core code are in `src/test/`. To compile and run them:
 
 Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
-    qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
+    qmake BORGCOIN_QT_TEST=1 -o Makefile.test borgcoin-qt.pro
     make -f Makefile.test
-    ./bitcoin-qt_test
+    ./borgcoin-qt_test
 
 Every pull request is built for both Windows and Linux on a dedicated server,
 and unit and sanity tests are automatically run. The binaries produced may be
