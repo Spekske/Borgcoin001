@@ -1,4 +1,4 @@
-Borgcoin BETA
+Borgcoin
 ====================
 
 Copyright (c) 2014 Borgcoin Developers
